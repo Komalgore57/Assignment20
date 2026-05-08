@@ -12,6 +12,24 @@ This assignment simulates a real-world end-to-end ML + deployment workflow.
 Use Python, Pandas, scikit-learn, Streamlit/Flask only.
 No collaborative filtering required (content-based only).
 Keep Ul simple.
+------------------------------------------
+## Module Required:
+-
+-
+-
+-
+-
+
+### How to install all these packages
+
+
+### How to execulte any coding cell
+** shift + Enter **
+
+
+## Dataset
+
+- [dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata).
 
 ------------------------------------------
 
@@ -103,3 +121,4 @@ Task 9: Final Validation
 1. Test deployed app link.
 2. Ensure recommendations work correctly.
 3. Include deployed URL in submission.
+
