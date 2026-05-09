@@ -14,18 +14,40 @@ No collaborative filtering required (content-based only).
 Keep Ul simple.
 ------------------------------------------
 ## Module Required:
--
--
--
--
--
+- pandas
+- nltk
+- scikit-learn
+- streamlit
+- joblib
+- re
+
 
 ### How to install all these packages
-
+! pip install pandas
+! pip install nltk
+! pip install scikit-learn
+! pip install streamlit
+! pip install joblib
 
 ### How to execulte any coding cell
 ** shift + Enter **
 
+### If you get certificate error
+ 
+------------------------------------------
+
+import nltk
+import ssl
+
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
+
+nltk.download('stopwords')
+------------------------------------------
 
 ## Dataset
 
